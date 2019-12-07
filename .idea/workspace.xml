@@ -1,13 +1,159 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8deecf4a-cd63-4789-b0b0-1c63b3084353" name="Default Changelist" comment="" />
+    <list default="true" id="8deecf4a-cd63-4789-b0b0-1c63b3084353" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sip/ShootistAuth.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SipExample/audio/AePlayWave.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SipExample/audio/AudioTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SipExample/audio/SimpleVoiceTransmiter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SipExample/audio/SimpleVoiceTransmiter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SipExample/jain/AccountManagerImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SipExample/jain/ShootistAuth.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SipExample/jain/UserCredentialsImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SipExample/jain/tpcc/Controller.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SipExample/jain/tpcc/Controller4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SipExample/jain/tpcc/Phone$MyTimerTask.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SipExample/jain/tpcc/Phone.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SipExample/jlibrtp/AppCallerThread.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SipExample/jlibrtp/CompRtcpPkt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SipExample/jlibrtp/DataFrame.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SipExample/jlibrtp/DebugAppIntf.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SipExample/jlibrtp/LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SipExample/jlibrtp/Participant.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SipExample/jlibrtp/ParticipantDatabase.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SipExample/jlibrtp/PktBufNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SipExample/jlibrtp/PktBuffer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SipExample/jlibrtp/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SipExample/jlibrtp/README.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SipExample/jlibrtp/RTCPAVPFIntf.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SipExample/jlibrtp/RTCPAppIntf.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SipExample/jlibrtp/RTCPReceiverThread.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SipExample/jlibrtp/RTCPSenderThread.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SipExample/jlibrtp/RTCPSession.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SipExample/jlibrtp/RTPAppIntf.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SipExample/jlibrtp/RTPReceiverThread.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SipExample/jlibrtp/RTPSession.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SipExample/jlibrtp/RtcpPkt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SipExample/jlibrtp/RtcpPktAPP.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SipExample/jlibrtp/RtcpPktBYE.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SipExample/jlibrtp/RtcpPktPSFB.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SipExample/jlibrtp/RtcpPktRR.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SipExample/jlibrtp/RtcpPktRTPFB.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SipExample/jlibrtp/RtcpPktSDES.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SipExample/jlibrtp/RtcpPktSR.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SipExample/jlibrtp/RtpPkt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SipExample/jlibrtp/StaticProcs.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SipExample/jlibrtp/ValidateParticipantDatabase.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SipExample/jlibrtp/ValidatePktBuffer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SipExample/jlibrtp/ValidateRtcpPkt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SipExample/jlibrtp/ValidateStaticProcs.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SipExample/jlibrtp/package.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SipExample/server/Configuration.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SipExample/server/PacketInfo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SipExample/server/SIPClient.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SipExample/server/SIPMessages.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SipExample/server/SIPServer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SipExample/server/SIPUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SipExample/server/SoundSender$Position.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SipExample/server/SoundSender.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SipExample/server/VoIPWorker.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SipExample/test/SdpInfo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SipExample/test/SdpTool.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SipExample/test/SoundReceiverDemo$Position.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SipExample/test/SoundReceiverDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SipExample/test/SoundSenderDemo$Position.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SipExample/test/SoundSenderDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SipExample/test/SoundSenderDemo2$Position.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SipExample/test/SoundSenderDemo2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SipExample/test/VoiceTool.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samplemedia/Apollo_15_liftoff_from_inside_LM.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samplemedia/Gloria_Patri.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samplemedia/attention.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samplemedia/betterway.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samplemedia/gulp.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samplemedia/gulp2.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samplemedia/hen.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samplemedia/issues.au" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samplemedia/lion_roar.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samplemedia/safexmas.mov" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samplemedia/santa.aiff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/audio/AePlayWave.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/audio/AudioTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/audio/SimpleVoiceTransmiter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/audio/SimpleVoiceTransmiter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/jain/AccountManagerImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/auth/AccountManagerImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/jain/ShootistAuth.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/jain/UserCredentialsImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/auth/UserCredentialsImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/jain/tpcc/Controller.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/jain/tpcc/Controller4.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/jain/tpcc/Phone.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/jlibrtp/AppCallerThread.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/jlibrtp/CompRtcpPkt.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/jlibrtp/DataFrame.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/jlibrtp/DebugAppIntf.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/jlibrtp/LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/jlibrtp/Participant.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/jlibrtp/ParticipantDatabase.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/jlibrtp/PktBufNode.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/jlibrtp/PktBuffer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/jlibrtp/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/jlibrtp/README.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/jlibrtp/RTCPAVPFIntf.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/jlibrtp/RTCPAppIntf.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/jlibrtp/RTCPReceiverThread.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/jlibrtp/RTCPSenderThread.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/jlibrtp/RTCPSession.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/jlibrtp/RTPAppIntf.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/jlibrtp/RTPReceiverThread.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/jlibrtp/RTPSession.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/jlibrtp/RtcpPkt.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/jlibrtp/RtcpPktAPP.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/jlibrtp/RtcpPktBYE.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/jlibrtp/RtcpPktPSFB.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/jlibrtp/RtcpPktRR.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/jlibrtp/RtcpPktRTPFB.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/jlibrtp/RtcpPktSDES.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/jlibrtp/RtcpPktSR.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/jlibrtp/RtpPkt.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/jlibrtp/StaticProcs.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/jlibrtp/ValidateParticipantDatabase.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/jlibrtp/ValidatePktBuffer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/jlibrtp/ValidateRtcpPkt.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/jlibrtp/ValidateStaticProcs.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/jlibrtp/package.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/server/Configuration.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/server/PacketInfo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/server/SIPClient.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/server/SIPMessages.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/server/SIPServer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/server/SIPUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/server/SoundSender.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/server/VoIPWorker.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/SdpInfo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/SdpTool.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/SoundReceiverDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/SoundSenderDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/SoundSenderDemo2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/VoiceTool.java" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1Ufe4rAZAhbnS3TTgIrUo9OhMx8" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -15,6 +161,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/lib" />
@@ -31,11 +178,11 @@
   </component>
   <component name="RunManager">
     <configuration name="ShootistAuth" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="jain.ShootistAuth" />
+      <option name="MAIN_CLASS_NAME" value="sip.ShootistAuth" />
       <module name="SipExample" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="jain.*" />
+          <option name="PATTERN" value="auth.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -73,6 +220,8 @@
       <updated>1575751888859</updated>
       <workItem from="1575751891911" duration="977000" />
       <workItem from="1575753721436" duration="58000" />
+      <workItem from="1575753951949" duration="308000" />
+      <workItem from="1575744700661" duration="10795000" />
     </task>
     <servers />
   </component>
@@ -80,33 +229,76 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="740" y="274" key="FileChooserDialogImpl" timestamp="1575752302830">
+    <state x="765" y="203" key="#com.intellij.ide.util.MemberChooser" timestamp="1575749073440">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1575752302830" />
-    <state width="1877" height="232" key="GridCell.Tab.0.bottom" timestamp="1575753778475">
+    <state x="765" y="203" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1575749073440" />
+    <state x="904" y="454" width="582" height="539" key="#xdebugger.evaluate" timestamp="1575750188809">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="232" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1575753778475" />
-    <state width="1877" height="232" key="GridCell.Tab.0.center" timestamp="1575753778475">
+    <state x="904" y="454" width="582" height="539" key="#xdebugger.evaluate/0.0.1920.1040@0.0.1920.1040" timestamp="1575750188809" />
+    <state x="740" y="274" key="FileChooserDialogImpl" timestamp="1575745357111">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="232" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1575753778475" />
-    <state width="1877" height="232" key="GridCell.Tab.0.left" timestamp="1575753778475">
+    <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1575745357111" />
+    <state width="1877" height="387" key="GridCell.Tab.0.bottom" timestamp="1575757345030">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="232" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1575753778475" />
-    <state width="1877" height="232" key="GridCell.Tab.0.right" timestamp="1575753778475">
+    <state width="1877" height="387" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1575757345030" />
+    <state width="1877" height="387" key="GridCell.Tab.0.center" timestamp="1575757345030">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="232" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1575753778475" />
-    <state x="440" y="94" key="SettingsEditor" timestamp="1575752304330">
+    <state width="1877" height="387" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1575757345030" />
+    <state width="1877" height="387" key="GridCell.Tab.0.left" timestamp="1575757345029">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="440" y="94" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1575752304330" />
-    <state x="656" y="343" key="com.intellij.ide.util.TipDialog" timestamp="1575753958570">
+    <state width="1877" height="387" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1575757345029" />
+    <state width="1877" height="387" key="GridCell.Tab.0.right" timestamp="1575757345030">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="656" y="343" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1575753958570" />
+    <state width="1877" height="387" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1575757345030" />
+    <state width="1877" height="516" key="GridCell.Tab.1.bottom" timestamp="1575757206558">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="516" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1575757206558" />
+    <state width="1877" height="516" key="GridCell.Tab.1.center" timestamp="1575757206558">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="516" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1575757206558" />
+    <state width="1877" height="516" key="GridCell.Tab.1.left" timestamp="1575757206558">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="516" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1575757206558" />
+    <state width="1877" height="516" key="GridCell.Tab.1.right" timestamp="1575757206558">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="516" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1575757206558" />
+    <state x="440" y="94" key="SettingsEditor" timestamp="1575745359532">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="440" y="94" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1575745359532" />
+    <state x="656" y="343" key="com.intellij.ide.util.TipDialog" timestamp="1575744728023">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="656" y="343" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1575744728023" />
+    <state x="656" y="257" width="607" height="526" key="find.popup" timestamp="1575748681994">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="656" y="257" width="607" height="526" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1575748681994" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1575757017449">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1575757017449" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/sip/ShootistAuth.java</url>
+          <line>65</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

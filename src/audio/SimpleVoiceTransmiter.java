@@ -19,19 +19,24 @@ import javax.media.format.AudioFormat;
 import javax.media.protocol.ContentDescriptor;
 import javax.media.protocol.DataSource;
 
-import net.sf.fmj.media.BonusAudioFormatEncodings;
-import net.sf.fmj.utility.URLUtils;
-
-/**
- * Adapted from http://javasolution.blogspot.com/2007/04/sound-over-ip-with-jmf-rtp.html
- */
 public class SimpleVoiceTransmiter {
 
+    private String file;
+    private String sipHost;
+    private int sipPort;
+
+    public SimpleVoiceTransmiter(String file, String sipHost, int sipPort) {
+        this.file = file;
+        this.sipHost = sipHost;
+        this.sipPort = sipPort;
+    }
+
     /**
+     *
      */
-    public void main(int port) {
+    public void run() {
 //        final String urlStr = URLUtils.createUrlStr(new File("samplemedia/gulp2.wav"));//"file://samplemedia/gulp2.wav";
-        File file = new File("D:\\New folder\\file_example_WAV_1MG.wav");
+        File file = new File(this.file);
 
         Format format;
         // TODO: if receiver has JMF in classpath after FMJ, and JMF defaults for PIM set to true, no audio is heard.
@@ -42,24 +47,6 @@ public class SimpleVoiceTransmiter {
 //        format = new AudioFormat(BonusAudioFormatEncodings.ILBC_RTP, 8000.0, 16, 1, AudioFormat.LITTLE_ENDIAN, AudioFormat.SIGNED);
 
 
-        if (false) {
-            // First find a capture device that will capture linear audio
-            // data at 8bit 8Khz
-            AudioFormat captureFormat = new AudioFormat(AudioFormat.LINEAR, 8000, 8, 1);
-
-            Vector devices = CaptureDeviceManager.getDeviceList(captureFormat);
-
-            CaptureDeviceInfo di = null;
-
-            if (devices.size() > 0) {
-                di = (CaptureDeviceInfo) devices.elementAt(0);
-            } else {
-                System.err.println("No capture devices");
-                // exit if we could not find the relevant capturedevice.
-                System.exit(-1);
-            }
-        }
-
         // Create a processor for this capturedevice & exit if we
         // cannot create it
         Processor processor = null;
@@ -67,10 +54,10 @@ public class SimpleVoiceTransmiter {
             processor = Manager.createProcessor(new MediaLocator(file.toURL()));
         } catch (IOException e) {
             e.printStackTrace();
-            System.exit(-1);
+            return;
         } catch (NoProcessorException e) {
             e.printStackTrace();
-            System.exit(-1);
+            return;
         }
 
         // configure the processor
@@ -136,13 +123,13 @@ public class SimpleVoiceTransmiter {
                 ds = processor.getDataOutput();
             } catch (NotRealizedError e) {
                 e.printStackTrace();
-                System.exit(-1);
+                return;
             }
 
             // hand this datasource to manager for creating an RTP
             // datasink our RTP datasink will multicast the audio
             try {
-                String url = "rtp://91.121.209.194:" + port + "/audio/1";
+                String url = "rtp://" + this.sipHost + ":" + this.sipPort + "/audio/1";
 
                 MediaLocator m = new MediaLocator(url);
 
@@ -152,10 +139,10 @@ public class SimpleVoiceTransmiter {
 
                 System.out.println("Starting processor");
                 processor.start();
-                Thread.sleep(30000);
+//                Thread.sleep(30000);
             } catch (Exception e) {
                 e.printStackTrace();
-                System.exit(-1);
+                return;
             }
         }
 
