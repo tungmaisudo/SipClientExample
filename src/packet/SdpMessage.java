@@ -36,7 +36,7 @@ public class SdpMessage {
         mediaDescription.setAttribute("rtpmap", "0 PCMU/8000");
         mediaDescription.setAttribute("rtpmap", "4 G723/8000");
         mediaDescription.setAttribute("rtpmap", "18 G729/8000");
-//        mediaDescription.set("sendrecv");
+//        mediaDescription.setKey("sendrecv");
         mediaDescription.setAttribute("rtpmap", "101 telephone-event/8000");
         mediaDescription.setAttribute("fmtp", "101 0-15");
 

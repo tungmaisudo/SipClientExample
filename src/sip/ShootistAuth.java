@@ -1,5 +1,6 @@
 package sip;
 
+import audio.ProcessVoiceChat;
 import audio.SimpleVoiceTransmiter;
 import auth.AccountManagerImpl;
 import dto.PacketInfo;
@@ -161,8 +162,9 @@ public class ShootistAuth implements SipListener {
     }
 
     public void sendRtpAudio(int port) throws Exception {
-        SimpleVoiceTransmiter audioTest = new SimpleVoiceTransmiter("D:\\New folder\\file_example_WAV_1MG.wav", this.sender.getSipHost(), port);
-        audioTest.run();
+//        SimpleVoiceTransmiter audioTest = new SimpleVoiceTransmiter("D:\\New folder\\file_example_WAV_1MG.wav", this.sender.getSipHost(), port);
+//        audioTest.run();
+        ProcessVoiceChat processVoiceChat = new ProcessVoiceChat("sip.linphone.org", port, 16010);
     }
 
     public void processTimeout(javax.sip.TimeoutEvent timeoutEvent) {
@@ -240,6 +242,8 @@ public class ShootistAuth implements SipListener {
 
 
     public static void main(String args[]) {
+//        PacketInfo sender = new PacketInfo("17999901", "04731747", "101.99.18.210", 5060);
+//        String callId = "84394419265";
         PacketInfo sender = new PacketInfo("milete02", "milete02", "sip.linphone.org", 5060);
         String callId = "milete01";
         new ShootistAuth(sender, callId).init();

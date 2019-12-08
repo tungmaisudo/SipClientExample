@@ -1,5 +1,9 @@
 package audio;
 
+import net.sf.fmj.media.BonusAudioFormatEncodings;
+import net.sf.fmj.media.codec.audio.alaw.Packetizer;
+import net.sf.fmj.utility.URLUtils;
+
 import java.io.File;
 import java.io.IOException;
 import java.util.Vector;
@@ -35,23 +39,23 @@ public class SimpleVoiceTransmiter {
      *
      */
     public void run() {
-//        final String urlStr = URLUtils.createUrlStr(new File("samplemedia/gulp2.wav"));//"file://samplemedia/gulp2.wav";
-        File file = new File(this.file);
+        final String urlStr = URLUtils.createUrlStr(new File("samplemedia/file_example_WAV_1MG_alaw.wav"));//"file://samplemedia/gulp2.wav";
+//        File file = new File("C:\\Users\\Tung\\Desktop\\file_example_WAV_1MG-1575813828.wav");
 
-        Format format;
-        // TODO: if receiver has JMF in classpath after FMJ, and JMF defaults for PIM set to true, no audio is heard.
-        format = new AudioFormat(AudioFormat.ULAW_RTP, 8000, 8, 1);
+        // g729,g711a
+        Format format =  null;
+//        format = new AudioFormat(AudioFormat.ULAW_RTP, 8000, 8, 1);
 //        format = new AudioFormat(AudioFormat.ULAW_RTP, 8000.0, 8, 1, AudioFormat.LITTLE_ENDIAN, AudioFormat.SIGNED);
-//        format = new AudioFormat(BonusAudioFormatEncodings.ALAW_RTP, 8000, 8, 1);
+//        format = new AudioFormat(BonusAudioFormatEncodings.ALAW_RTP, 8000, 16, 1);
+        format = new AudioFormat(BonusAudioFormatEncodings.ALAW_RTP, 8000, 8, 1, AudioFormat.BIG_ENDIAN, AudioFormat.UNSIGNED);
 //        format = new AudioFormat(BonusAudioFormatEncodings.SPEEX_RTP, 8000, 8, 1, -1, AudioFormat.SIGNED);
 //        format = new AudioFormat(BonusAudioFormatEncodings.ILBC_RTP, 8000.0, 16, 1, AudioFormat.LITTLE_ENDIAN, AudioFormat.SIGNED);
-
 
         // Create a processor for this capturedevice & exit if we
         // cannot create it
         Processor processor = null;
         try {
-            processor = Manager.createProcessor(new MediaLocator(file.toURL()));
+            processor = Manager.createProcessor(new MediaLocator(urlStr));
         } catch (IOException e) {
             e.printStackTrace();
             return;
@@ -129,7 +133,7 @@ public class SimpleVoiceTransmiter {
             // hand this datasource to manager for creating an RTP
             // datasink our RTP datasink will multicast the audio
             try {
-                String url = "rtp://" + this.sipHost + ":" + this.sipPort + "/audio/1";
+                String url = "rtp://" + this.sipHost + ":" + this.sipPort + "/audio/16";
 
                 MediaLocator m = new MediaLocator(url);
 
