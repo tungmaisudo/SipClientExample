@@ -3,11 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="8deecf4a-cd63-4789-b0b0-1c63b3084353" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SipExample/audio/SimpleVoiceTransmiter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SipExample/audio/SimpleVoiceTransmiter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SipExample/audio/ProcessVoiceChat.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SipExample/audio/ProcessVoiceChat.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SipExample/audio/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SipExample/audio/Test.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/SipExample/packet/SdpMessage.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SipExample/packet/SdpMessage.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/SipExample/sip/ShootistAuth.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SipExample/sip/ShootistAuth.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/audio/SimpleVoiceTransmiter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/audio/SimpleVoiceTransmiter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/packet/SdpMessage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/packet/SdpMessage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/sip/ShootistAuth.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sip/ShootistAuth.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -37,7 +36,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/samplemedia" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.13642055" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -48,6 +47,7 @@
       <recent name="D:\New folder\New folder\SipExample\samplemedia" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\New folder\New folder\SipExample\src" />
       <recent name="D:\New folder\New folder\SipExample\samplemedia" />
       <recent name="D:\New folder\New folder\SipExample" />
       <recent name="D:\New folder\New folder\SipExample\src\audio" />
@@ -101,7 +101,8 @@
       <workItem from="1575744700661" duration="11671000" />
       <workItem from="1575759338321" duration="627000" />
       <workItem from="1575774908367" duration="9775000" />
-      <workItem from="1575817200922" duration="3213000" />
+      <workItem from="1575817200922" duration="3561000" />
+      <workItem from="1575821033300" duration="1420000" />
     </task>
     <servers />
   </component>
@@ -121,22 +122,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1575745357111" />
-    <state width="1877" height="333" key="GridCell.Tab.0.bottom" timestamp="1575820494018">
+    <state width="1877" height="442" key="GridCell.Tab.0.bottom" timestamp="1575822391053">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="333" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1575820494018" />
-    <state width="1877" height="333" key="GridCell.Tab.0.center" timestamp="1575820494018">
+    <state width="1877" height="442" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1575822391053" />
+    <state width="1877" height="442" key="GridCell.Tab.0.center" timestamp="1575822391053">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="333" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1575820494018" />
-    <state width="1877" height="333" key="GridCell.Tab.0.left" timestamp="1575820494018">
+    <state width="1877" height="442" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1575822391053" />
+    <state width="1877" height="442" key="GridCell.Tab.0.left" timestamp="1575822391052">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="333" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1575820494018" />
-    <state width="1877" height="333" key="GridCell.Tab.0.right" timestamp="1575820494018">
+    <state width="1877" height="442" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1575822391052" />
+    <state width="1877" height="442" key="GridCell.Tab.0.right" timestamp="1575822391053">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="333" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1575820494018" />
+    <state width="1877" height="442" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1575822391053" />
     <state width="1877" height="484" key="GridCell.Tab.1.bottom" timestamp="1575815885473">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -175,7 +176,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/sip/ShootistAuth.java</url>
-          <line>66</line>
+          <line>67</line>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>

@@ -2,6 +2,7 @@ package sip;
 
 import audio.ProcessVoiceChat;
 import audio.SimpleVoiceTransmiter;
+import audio.Test;
 import auth.AccountManagerImpl;
 import dto.PacketInfo;
 import gov.nist.javax.sip.SipStackExt;
@@ -164,7 +165,9 @@ public class ShootistAuth implements SipListener {
     public void sendRtpAudio(int port) throws Exception {
 //        SimpleVoiceTransmiter audioTest = new SimpleVoiceTransmiter("D:\\New folder\\file_example_WAV_1MG.wav", this.sender.getSipHost(), port);
 //        audioTest.run();
-        ProcessVoiceChat processVoiceChat = new ProcessVoiceChat("sip.linphone.org", port, 16010);
+//        ProcessVoiceChat processVoiceChat = new ProcessVoiceChat("sip.linphone.org", port, 16010);
+        Test test = new Test();
+        test.run(port);
     }
 
     public void processTimeout(javax.sip.TimeoutEvent timeoutEvent) {
