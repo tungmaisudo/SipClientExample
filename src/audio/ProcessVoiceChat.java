@@ -1,14 +1,8 @@
 package audio;
 
-import com.sun.media.rtp.RTPMediaLocator;
-import com.sun.media.rtp.RTPSessionMgr;
-import com.sun.media.ui.PlayerWindow;
-import net.sf.fmj.media.BonusAudioFormatEncodings;
+import net.sf.fmj.media.rtp.RTPSessionMgr;
 import net.sf.fmj.utility.URLUtils;
 
-import java.awt.Component;
-import java.awt.Dimension;
-import java.awt.FlowLayout;
 import java.io.File;
 import java.io.IOException;
 import java.net.InetAddress;
@@ -16,7 +10,6 @@ import javax.media.*;
 import javax.media.control.FormatControl;
 import javax.media.control.TrackControl;
 import javax.media.format.AudioFormat;
-import javax.media.format.VideoFormat;
 import javax.media.protocol.ContentDescriptor;
 import javax.media.protocol.DataSource;
 import javax.media.rtp.ReceiveStream;
@@ -25,8 +18,6 @@ import javax.media.rtp.SendStream;
 import javax.media.rtp.SessionAddress;
 import javax.media.rtp.event.NewReceiveStreamEvent;
 import javax.media.rtp.event.ReceiveStreamEvent;
-import javax.swing.JFrame;
-import javax.swing.JPanel;
 
 /**
  *
@@ -72,14 +63,15 @@ public class ProcessVoiceChat implements ReceiveStreamListener {
 
     public void startMedia() {
 
-        final String urlStr = URLUtils.createUrlStr(new File("samplemedia/file_example_WAV_1MG_alaw.wav"));//"file://samplemedia/gulp2.wav";
+        final String urlStr = URLUtils.createUrlStr(new File("samplemedia/gulp2.wav"));//"file://samplemedia/gulp2.wav";
 //        File file = new File("C:\\Users\\Tung\\Desktop\\file_example_WAV_1MG-1575813828.wav");
 
         // g729,g711a
         Format format =  null;
+//        format = new AudioFormat(BonusAudioFormatEncodings.ALAW_RTP);
         format = new AudioFormat(AudioFormat.ULAW_RTP, 8000, 8, 1);
 //        format = new AudioFormat(AudioFormat.ULAW_RTP, 8000.0, 8, 1, AudioFormat.LITTLE_ENDIAN, AudioFormat.SIGNED);
-//        format = new AudioFormat(BonusAudioFormatEncodings.ALAW_RTP, 8000, 8, 1, AudioFormat.BIG_ENDIAN, AudioFormat.UNSIGNED);
+//        format = new AudioFormat(BonusAudioFormatEncodings.ALAW_RTP, 8000, 8, 1);
 //        format = new AudioFormat(BonusAudioFormatEncodings.SPEEX_RTP, 8000, 8, 1, -1, AudioFormat.SIGNED);
 //        format = new AudioFormat(BonusAudioFormatEncodings.ILBC_RTP, 8000.0, 16, 1, AudioFormat.LITTLE_ENDIAN, AudioFormat.SIGNED);
 
@@ -98,6 +90,7 @@ public class ProcessVoiceChat implements ReceiveStreamListener {
         // configure the processor
         processor.configure();
 
+
         while (processor.getState() != Processor.Configured) {
             try {
                 Thread.sleep(100);
@@ -110,10 +103,13 @@ public class ProcessVoiceChat implements ReceiveStreamListener {
 
         TrackControl track[] = processor.getTrackControls();
 
+
         boolean encodingOk = false;
 
         // Go through the tracks and try to program one of them to
         // output gsm data.
+
+
 
         for (int i = 0; i < track.length; i++) {
             if (!encodingOk && track[i] instanceof FormatControl) {
@@ -146,12 +142,12 @@ public class ProcessVoiceChat implements ReceiveStreamListener {
                 return;
             }
 
-
         }
     }
 
     public void send() {
         try {
+            System.out.println("Send stream");
             sendStream = voiceSession.createSendStream(outDataSource, 0);
             sendStream.start();
             processor.start();
@@ -174,7 +170,7 @@ public class ProcessVoiceChat implements ReceiveStreamListener {
             processor.deallocate();
             processor.close();
 
-            voiceSession.closeSession();
+            voiceSession.closeSession("");
             voiceSession.dispose();
 
         } catch (Exception e) {

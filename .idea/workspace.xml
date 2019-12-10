@@ -2,17 +2,130 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8deecf4a-cd63-4789-b0b0-1c63b3084353" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/lib/gstreamer-java.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/jdom.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/jheora-patch.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/jl1.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/jogg-0.0.7.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/jorbis-0.0.15.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/jspeex.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/lti-civil-no_s_w_t.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/mp3spi1.9.4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/theora-java.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/tritonus_share.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/vorbisspi1.0.2.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SipExample.iml" beforeDir="false" afterPath="$PROJECT_DIR$/SipExample.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/fmj.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/jmf-2.1.1e.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SipExample/META-INF/SipExample.kotlin_module" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/SipExample/audio/ProcessVoiceChat.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SipExample/audio/ProcessVoiceChat.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SipExample/audio/SimpleVoiceTransmiter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SipExample/audio/SimpleVoiceTransmiter.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/SipExample/audio/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SipExample/audio/Test.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/SipExample/packet/SdpMessage.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SipExample/packet/SdpMessage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SipExample/server/SoundSender.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SipExample/server/SoundSender.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/SipExample/sip/ShootistAuth.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SipExample/sip/ShootistAuth.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SipExample/utils/Utils.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SipExample/utils/Utils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/audio/ProcessVoiceChat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/audio/ProcessVoiceChat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/audio/SimpleVoiceTransmiter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/audio/SimpleVoiceTransmiter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/audio/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/audio/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/packet/SdpMessage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/packet/SdpMessage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/server/SoundSender.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/server/SoundSender.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/sip/ShootistAuth.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sip/ShootistAuth.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utils/Utils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/Utils.java" afterDir="false" />
     </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-2044574075">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="3" />
+          <entry key="project.open.time.0" value="3" />
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.opened" value="4" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="CLASS" value="68" />
+          <entry key="JAVA" value="52" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="CLASS" value="4" />
+          <entry key="JAVA" value="1150" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/sip/ShootistAuth.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2856">
+              <caret line="168" column="33" selection-start-line="168" selection-start-column="33" selection-end-line="168" selection-end-column="33" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/audio/ProcessVoiceChat.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2550">
+              <caret line="150" column="71" selection-start-line="150" selection-start-column="71" selection-end-line="150" selection-end-column="71" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/packet/SdpMessage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="425">
+              <caret line="32" column="22" selection-start-line="32" selection-start-column="22" selection-end-line="32" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/audio/SimpleVoiceTransmiter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="867">
+              <caret line="51" column="49" selection-start-line="51" selection-start-column="49" selection-end-line="51" selection-end-column="49" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/audio/SimpleVoiceTransmiter2.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="42" column="66" lean-forward="true" selection-start-line="42" selection-start-column="66" selection-end-line="42" selection-end-column="66" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -21,11 +134,141 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>alaw</find>
+      <find>call</find>
+      <find>loadLibrary</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/utils/Utils.java" />
+        <option value="$PROJECT_DIR$/src/ibm/SimpleAudioPlayer.java" />
+        <option value="$PROJECT_DIR$/src/ibm/MediaTransmitter.java" />
+        <option value="$PROJECT_DIR$/src/audio/Test.java" />
+        <option value="$PROJECT_DIR$/src/jvoip/Test.java" />
+        <option value="$PROJECT_DIR$/src/jvoip/AVTransmit2.java" />
+        <option value="$PROJECT_DIR$/src/server/SoundSender.java" />
+        <option value="$PROJECT_DIR$/src/alaw/JavaEncoder.java" />
+        <option value="$PROJECT_DIR$/src/alaw/Packetizer.java" />
+        <option value="$PROJECT_DIR$/src/temp/g729/DecLd8k.java" />
+        <option value="$PROJECT_DIR$/src/jvoip/RTPTest.java" />
+        <option value="$PROJECT_DIR$/src/temp/alaw/Packetizer.java" />
+        <option value="$PROJECT_DIR$/src/packet/SdpMessage.java" />
+        <option value="$PROJECT_DIR$/src/audio/ProcessVoiceChat.java" />
+        <option value="$PROJECT_DIR$/src/sip/ShootistAuth.java" />
+        <option value="$PROJECT_DIR$/src/audio/SimpleVoiceTransmiter.java" />
+        <option value="$PROJECT_DIR$/src/audio/SimpleVoiceTransmiter2.java" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="2037" />
+    <option name="y" value="30" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
+  </component>
   <component name="ProjectId" id="1Ufe4rAZAhbnS3TTgIrUo9OhMx8" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="SipClientExample" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SipClientExample" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SipClientExample" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SipClientExample" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SipClientExample" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SipClientExample" type="462c0819:PsiDirectoryNode" />
+              <item name="native" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SipClientExample" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SipClientExample" type="462c0819:PsiDirectoryNode" />
+              <item name="native" type="462c0819:PsiDirectoryNode" />
+              <item name="linux-x86" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SipClientExample" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SipClientExample" type="462c0819:PsiDirectoryNode" />
+              <item name="native" type="462c0819:PsiDirectoryNode" />
+              <item name="win32-x86" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SipClientExample" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SipClientExample" type="462c0819:PsiDirectoryNode" />
+              <item name="samplemedia" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SipClientExample" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SipClientExample" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SipClientExample" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SipClientExample" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="audio" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SipClientExample" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SipClientExample" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="dto" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SipClientExample" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SipClientExample" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="packet" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SipClientExample" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SipClientExample" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SipClientExample" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SipClientExample" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="sip" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SipClientExample" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SipClientExample" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -34,26 +277,45 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="SearchEverywhereHistoryKey" value="RecorderRtp&#9;PSI&#9;JAVA://org.jitsi.impl.neomedia.recording.RecorderRtpImpl&#10;Packeti&#9;FILE&#9;jar://C:/project/SipClientExample/lib/jmf-2.1.1e.jar!/com/sun/media/codec/video/mpeg/Packetizer.class" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1575971085289" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/lib" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.13642055" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\project\SipClientExample\lib" />
+      <recent name="C:\project\SipClientExample" />
+      <recent name="C:\project\SipClientExample\src\temp" />
+      <recent name="C:\project\SipClientExample\src" />
+      <recent name="C:\project\SipClientExample\samplemedia" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="auth" />
+      <recent name="jvoip" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\New folder\New folder\SipExample\samplemedia" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\New folder\New folder\SipExample\src" />
-      <recent name="D:\New folder\New folder\SipExample\samplemedia" />
-      <recent name="D:\New folder\New folder\SipExample" />
-      <recent name="D:\New folder\New folder\SipExample\src\audio" />
-    </key>
   </component>
-  <component name="RunManager">
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.SimpleVoiceTransmiter2">
     <configuration name="ShootistAuth" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="sip.ShootistAuth" />
       <module name="SipExample" />
@@ -67,9 +329,57 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SimpleVoiceTransmiter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="audio.SimpleVoiceTransmiter" />
+      <module name="SipExample" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="audio.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SimpleVoiceTransmiter2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="audio.SimpleVoiceTransmiter2" />
+      <module name="SipExample" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="audio.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="jvoip.Test" />
+      <module name="SipExample" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="jvoip.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.ShootistAuth" />
+      <item itemvalue="Application.Test" />
+      <item itemvalue="Application.SimpleVoiceTransmiter" />
+      <item itemvalue="Application.SimpleVoiceTransmiter2" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SimpleVoiceTransmiter2" />
         <item itemvalue="Application.ShootistAuth" />
+        <item itemvalue="Application.SimpleVoiceTransmiter" />
+        <item itemvalue="Application.Test" />
       </list>
     </recent_temporary>
   </component>
@@ -103,11 +413,86 @@
       <workItem from="1575774908367" duration="9775000" />
       <workItem from="1575817200922" duration="3561000" />
       <workItem from="1575821033300" duration="1420000" />
+      <workItem from="1575855827744" duration="5678000" />
+      <workItem from="1575861715731" duration="25004000" />
+      <workItem from="1575947080782" duration="14391000" />
+      <workItem from="1575969539530" duration="1535000" />
     </task>
     <servers />
   </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="46608000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21908316" />
+      <window_info id="Image Layers" order="1" />
+      <window_info id="Designer" order="2" />
+      <window_info id="UI Designer" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.329718" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.521692" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4370933" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="SonarQube" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.329718" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.329718" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Database" order="5" />
+      <window_info anchor="right" id="Theme Preview" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Maven Projects" order="8" />
+      <window_info anchor="right" id="Structure" order="9" side_tool="true" weight="0.21428572" />
+    </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21695095" />
+      <window_info id="Image Layers" order="1" />
+      <window_info id="Designer" order="2" />
+      <window_info id="UI Designer" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.329718" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3177874" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4370933" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="SonarQube" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.329718" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info active="true" anchor="bottom" id="Messages" order="12" visible="true" weight="0.329718" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Database" order="5" />
+      <window_info anchor="right" id="Theme Preview" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Maven Projects" order="8" />
+      <window_info anchor="right" id="Structure" order="9" side_tool="true" weight="0.21428572" />
+    </layout-to-restore>
+  </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
   </component>
   <component name="WindowStateProjectService">
     <state x="765" y="203" key="#com.intellij.ide.util.MemberChooser" timestamp="1575749073440">
@@ -177,9 +562,292 @@
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/sip/ShootistAuth.java</url>
           <line>67</line>
+          <properties />
           <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$PROJECT_DIR$/lib/fmj.jar!/javax/media/Manager.class</url>
+          <line>172</line>
+          <properties />
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$PROJECT_DIR$/lib/g729-7.0.16.jar!/org/restcomm/media/codec/g729/Encoder.class</url>
+          <line>84</line>
+          <properties />
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$PROJECT_DIR$/lib/g729-7.0.16.jar!/org/restcomm/media/codec/g729/Encoder.class</url>
+          <line>93</line>
+          <properties />
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$PROJECT_DIR$/lib/fmj.jar!/javax/media/Manager.class</url>
+          <line>171</line>
+          <properties />
+          <option name="timeStamp" value="21" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>Bits.toRealBits(this.serial)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>Manager.createRealizedProcessor(processorModel)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>new MediaLocator(urlStr)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="jar://$PROJECT_DIR$/lib/libjitsi.jar!/org/jitsi/impl/neomedia/recording/RecorderRtpImpl.class" />
+    <entry file="file://$PROJECT_DIR$/src/jvoip/AVTransmit2.java" />
+    <entry file="file://$PROJECT_DIR$/src/server/SoundSender.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="97" column="54" selection-start-line="97" selection-start-column="54" selection-end-line="97" selection-end-column="54" />
+          <folding>
+            <element signature="e#1933#1934#0" expanded="true" />
+            <element signature="e#1957#1958#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/fmj.jar!/javax/media/format/AudioFormat.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-275">
+          <caret line="45" column="30" lean-forward="true" selection-start-line="45" selection-start-column="30" selection-end-line="45" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/fmj.jar!/javax/media/MediaLocator.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/fmj.jar!/javax/media/protocol/DataSource.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="12" column="22" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/alaw/Packetizer.java" />
+    <entry file="file://$PROJECT_DIR$/src/alaw/JavaEncoder.java" />
+    <entry file="file://$PROJECT_DIR$/src/alaw/DePacketizer.java" />
+    <entry file="jar://$PROJECT_DIR$/lib/libjitsi.jar!/org/jitsi/impl/neomedia/codec/audio/alaw/Packetizer.class" />
+    <entry file="file://$PROJECT_DIR$/src/temp/g729/DeAcelp.java" />
+    <entry file="file://$PROJECT_DIR$/src/temp/g729/JavaDecoder.java" />
+    <entry file="file://$PROJECT_DIR$/src/temp/g729/QuaLsp.java" />
+    <entry file="file://$PROJECT_DIR$/src/temp/g729/AcelpCo.java" />
+    <entry file="file://$PROJECT_DIR$/src/temp/g729/Pitch.java" />
+    <entry file="file://$PROJECT_DIR$/src/temp/g729/IntReference.java" />
+    <entry file="file://$PROJECT_DIR$/src/temp/g729/Postfil.java" />
+    <entry file="file://$PROJECT_DIR$/src/temp/g729/DecLd8k.java" />
+    <entry file="file://$PROJECT_DIR$/src/temp/alaw/DePacketizer.java" />
+    <entry file="file://$PROJECT_DIR$/src/jvoip/RTPTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/temp/alaw/JavaEncoder.java" />
+    <entry file="jar://$PROJECT_DIR$/lib/fmj.jar!/javax/media/rtp/SessionAddress.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/fmj.jar!/javax/media/Format.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-799">
+          <caret line="23" column="11" selection-start-line="23" selection-start-column="11" selection-end-line="23" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/fmj.jar!/javax/media/control/TrackControl.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/fmj.jar!/javax/media/Processor.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="17" column="12" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/temp/alaw/Packetizer.java" />
+    <entry file="jar://$PROJECT_DIR$/lib/jmf-2.1.1e.jar!/com/sun/media/rtp/RTPSessionMgr.class" />
+    <entry file="jar://$PROJECT_DIR$/lib/jmf-2.1.1e.jar!/com/ibm/media/codec/audio/alaw/JavaDecoder.class" />
+    <entry file="jar://$PROJECT_DIR$/lib/jmf-2.1.1e.jar!/com/ibm/media/codec/audio/ulaw/JavaDecoder.class" />
+    <entry file="jar://$PROJECT_DIR$/lib/jmf-2.1.1e.jar!/com/ibm/media/codec/audio/ulaw/JavaEncoder.class" />
+    <entry file="jar://$PROJECT_DIR$/lib/jmf-2.1.1e.jar!/com/ibm/media/codec/audio/g723/JavaDecoder.class" />
+    <entry file="jar://$PROJECT_DIR$/lib/jmf-2.1.1e.jar!/com/ibm/media/codec/audio/dvi/JavaEncoder.class" />
+    <entry file="jar://$PROJECT_DIR$/lib/jmf-2.1.1e.jar!/com/sun/media/codec/audio/ulaw/PacketSizeAdapter.class" />
+    <entry file="jar://$PROJECT_DIR$/lib/jmf-2.1.1e.jar!/com/sun/media/codec/audio/AudioCodec.class" />
+    <entry file="jar://$PROJECT_DIR$/lib/jmf-2.1.1e.jar!/com/sun/media/rtp/BufferControlImpl.class" />
+    <entry file="jar://$PROJECT_DIR$/lib/jmf-2.1.1e.jar!/javax/media/Track.class" />
+    <entry file="jar://$PROJECT_DIR$/lib/jmf-2.1.1e.jar!/javax/media/Codec.class" />
+    <entry file="jar://$PROJECT_DIR$/lib/jmf-2.1.1e.jar!/com/sun/media/rtp/Depacketizer.class" />
+    <entry file="jar://$PROJECT_DIR$/lib/jmf-2.1.1e.jar!/com/sun/media/rtp/RTPTransmitter.class" />
+    <entry file="jar://$PROJECT_DIR$/lib/jmf-2.1.1e.jar!/com/sun/media/rtp/RTPRawSender.class" />
+    <entry file="jar://$PROJECT_DIR$/lib/jmf-2.1.1e.jar!/com/sun/media/codec/audio/ulaw/Packetizer.class" />
+    <entry file="jar://$PROJECT_DIR$/lib/jmf-2.1.1e.jar!/com/sun/media/codec/audio/ulaw/DePacketizer.class" />
+    <entry file="jar://$PROJECT_DIR$/lib/fmj.jar!/net/sf/fmj/media/rtp/RTPSessionMgr.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="544" column="42" selection-start-line="544" selection-start-column="36" selection-end-line="544" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/fmj.jar!/javax/media/Manager.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="211">
+          <caret line="178" column="73" selection-start-line="178" selection-start-column="54" selection-end-line="178" selection-end-column="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/jna-4.1.0.jar!/com/sun/jna/Native.class" />
+    <entry file="file://$PROJECT_DIR$/src/sip/ShootistAuth.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2856">
+          <caret line="168" column="33" selection-start-line="168" selection-start-column="33" selection-end-line="168" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/audio/ProcessVoiceChat.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2550">
+          <caret line="150" column="71" selection-start-line="150" selection-start-column="71" selection-end-line="150" selection-end-column="71" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/packet/SdpMessage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="32" column="22" selection-start-line="32" selection-start-column="22" selection-end-line="32" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/audio/SimpleVoiceTransmiter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="867">
+          <caret line="51" column="49" selection-start-line="51" selection-start-column="49" selection-end-line="51" selection-end-column="49" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/jna-4.2.2.jar!/com/sun/jna/Native.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="166">
+          <caret line="256" column="70" selection-start-line="256" selection-start-column="56" selection-end-line="256" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/audio/SimpleVoiceTransmiter2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="42" column="66" lean-forward="true" selection-start-line="42" selection-start-column="66" selection-end-line="42" selection-end-column="66" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>SipExample</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>

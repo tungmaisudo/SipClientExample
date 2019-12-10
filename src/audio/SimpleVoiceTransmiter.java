@@ -35,27 +35,28 @@ public class SimpleVoiceTransmiter {
         this.sipPort = sipPort;
     }
 
+    public static void main(String[] args) {
+        SimpleVoiceTransmiter audioTest = new SimpleVoiceTransmiter("C:\\project\\SipClientExample\\samplemedia\\gulp2.wav", "sip.linphone.org", 7990);
+        audioTest.run();
+    }
+
     /**
      *
      */
     public void run() {
-        final String urlStr = URLUtils.createUrlStr(new File("samplemedia/file_example_WAV_1MG_alaw.wav"));//"file://samplemedia/gulp2.wav";
-//        File file = new File("C:\\Users\\Tung\\Desktop\\file_example_WAV_1MG-1575813828.wav");
+//        final String urlStr = URLUtils.createUrlStr(new File("samplemedia/gulp.wav"));//"file://samplemedia/gulp2.wav";
+        File file = new File("C:\\project\\SipClientExample\\samplemedia\\gulp2.wav");
 
         // g729,g711a
         Format format =  null;
-//        format = new AudioFormat(AudioFormat.ULAW_RTP, 8000, 8, 1);
-//        format = new AudioFormat(AudioFormat.ULAW_RTP, 8000.0, 8, 1, AudioFormat.LITTLE_ENDIAN, AudioFormat.SIGNED);
-//        format = new AudioFormat(BonusAudioFormatEncodings.ALAW_RTP, 8000, 16, 1);
-        format = new AudioFormat(BonusAudioFormatEncodings.ALAW_RTP, 8000, 8, 1, AudioFormat.BIG_ENDIAN, AudioFormat.UNSIGNED);
-//        format = new AudioFormat(BonusAudioFormatEncodings.SPEEX_RTP, 8000, 8, 1, -1, AudioFormat.SIGNED);
-//        format = new AudioFormat(BonusAudioFormatEncodings.ILBC_RTP, 8000.0, 16, 1, AudioFormat.LITTLE_ENDIAN, AudioFormat.SIGNED);
+        format = new AudioFormat(AudioFormat.G729_RTP, 8000, 8, 1);
 
         // Create a processor for this capturedevice & exit if we
         // cannot create it
         Processor processor = null;
         try {
-            processor = Manager.createProcessor(new MediaLocator(urlStr));
+            MediaLocator mediaLocator = new MediaLocator(file.toURL());
+            processor = Manager.createProcessor(mediaLocator);
         } catch (IOException e) {
             e.printStackTrace();
             return;
@@ -108,17 +109,17 @@ public class SimpleVoiceTransmiter {
                 return;
             }
 
-//			while (processor.getState() != Processor.Realized)
-//			{
-//				try
-//				{
-//					Thread.sleep(100);
-//				} catch (InterruptedException e)
-//				{
-//					// TODO Auto-generated catch block
-//					e.printStackTrace();
-//				}
-//			}
+			while (processor.getState() != Processor.Realized)
+			{
+				try
+				{
+					Thread.sleep(100);
+				} catch (InterruptedException e)
+				{
+					// TODO Auto-generated catch block
+					e.printStackTrace();
+				}
+			}
             // get the output datasource of the processor and exit
             // if we fail
             DataSource ds = null;
@@ -143,7 +144,9 @@ public class SimpleVoiceTransmiter {
 
                 System.out.println("Starting processor");
                 processor.start();
-//                Thread.sleep(30000);
+                Thread.sleep(3000);
+                System.out.println("end");
+                d.close();
             } catch (Exception e) {
                 e.printStackTrace();
                 return;

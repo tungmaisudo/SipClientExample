@@ -1,6 +1,8 @@
 package packet;
 
+import gov.nist.javax.sdp.fields.AttributeField;
 import gov.nist.javax.sdp.fields.SDPKeywords;
+import gov.nist.javax.sdp.parser.AttributeFieldParser;
 import utils.Utils;
 
 import javax.sdp.*;
@@ -17,26 +19,25 @@ public class SdpMessage {
         Version version = sdpFactory.createVersion(0);
         long ss = sdpFactory.getNtpTime(new Date());
         Origin origin = sdpFactory.createOrigin("-", ss, ss, SDPKeywords.IN, SDPKeywords.IPV4, ipv4Local);
-        SessionName sessionName = sdpFactory.createSessionName("-");
+        SessionName sessionName = sdpFactory.createSessionName("Five9");
         Connection connection = sdpFactory.createConnection(ipv4Local);
         // create t
         TimeDescription timeDescription = sdpFactory.createTimeDescription();
         Vector timeVector = new Vector();
         timeVector.add(timeDescription);
         // create m
-        int[] payloadAudio = new int[5];
-        payloadAudio[0] = 8;
-        payloadAudio[1] = 0;
-        payloadAudio[2] = 4;
-        payloadAudio[3] = 18;
-        payloadAudio[4] = 101;
+        int[] payloadAudio = new int[2];
+//        payloadAudio[0] = 8;
+//        payloadAudio[0] = 0;
+        payloadAudio[0] = 18;
+        payloadAudio[1] = 101;
         MediaDescription mediaDescription = sdpFactory.createMediaDescription("audio", rtpLocalPort, 1, "RTP/AVP", payloadAudio);
         mediaDescription.setAttribute("rtcp", rtpLocalPort + 1 + " IN IP4 " + ipv4Local);
-        mediaDescription.setAttribute("rtpmap", "8 PCMA/8000");
-        mediaDescription.setAttribute("rtpmap", "0 PCMU/8000");
-        mediaDescription.setAttribute("rtpmap", "4 G723/8000");
-        mediaDescription.setAttribute("rtpmap", "18 G729/8000");
-//        mediaDescription.setKey("sendrecv");
+//        mediaDescription.setAttribute("rtpmap", "8 PCMA/8000");
+//        mediaDescription.setAttribute("rtpmap", "0 PCMU/8000");
+
+        mediaDescription.setAttribute("sendrecv", null);
+
         mediaDescription.setAttribute("rtpmap", "101 telephone-event/8000");
         mediaDescription.setAttribute("fmtp", "101 0-15");
 

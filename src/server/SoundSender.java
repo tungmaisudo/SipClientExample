@@ -65,7 +65,7 @@ public class SoundSender extends Thread implements RTPAppIntf  {
     }
 
     public int frameSize(int payloadType) {
-        return 2;
+        return 1;
     }
 
     @Override
@@ -149,33 +149,33 @@ public class SoundSender extends Thread implements RTPAppIntf  {
                 nBytesRead = audioInputStream.read(abData, 0, abData.length);
 
                 if (nBytesRead >= 0) {
-                    rtpSession.sendData(abData);
-
+                    long[] count = rtpSession.sendData(abData);
+                    System.out.println("Send: " + count[0]);
 //                    auline.write(abData, 0, abData.length);
                     pktCount++;
                 }
                 //System.out.println(pktCount);
-                if(pktCount == 300) {
-                    Enumeration<Participant> iter = this.rtpSession.getParticipants();
-                    //System.out.println("iter " + iter.hasMoreElements());
-                    Participant p = null;
-
-                    while(iter.hasMoreElements()) {
-                        p = iter.nextElement();
-
-                        String name = "name";
-                        byte[] nameBytes = name.getBytes();
-                        String data= "abcd";
-                        byte[] dataBytes = data.getBytes();
-
-
-                        int ret = rtpSession.sendRTCPAppPacket(p.getSSRC(), 0, nameBytes, dataBytes);
-                        System.out.println("!!!!!!!!!!!! ADDED APPLICATION SPECIFIC " + ret);
-                        continue;
-                    }
-                    if(p == null)
-                        System.out.println("No participant with SSRC available :(");
-                }
+//                if(pktCount == 300) {
+//                    Enumeration<Participant> iter = this.rtpSession.getParticipants();
+//                    //System.out.println("iter " + iter.hasMoreElements());
+//                    Participant p = null;
+//
+//                    while(iter.hasMoreElements()) {
+//                        p = iter.nextElement();
+//
+//                        String name = "name";
+//                        byte[] nameBytes = name.getBytes();
+//                        String data= "abcd";
+//                        byte[] dataBytes = data.getBytes();
+//
+//
+//                        int ret = rtpSession.sendRTCPAppPacket(p.getSSRC(), 0, nameBytes, dataBytes);
+//                        System.out.println("!!!!!!!!!!!! ADDED APPLICATION SPECIFIC " + ret);
+//                        continue;
+//                    }
+//                    if(p == null)
+//                        System.out.println("No participant with SSRC available :(");
+//                }
             }
         } catch (IOException e) {
             e.printStackTrace();
